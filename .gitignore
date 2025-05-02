@@ -20,17 +20,6 @@
 *.iws
 *.ipr
 
-# Eclipse
-.classpath
-.project
-.settings/
-.apt_generated
-.factorypath
-.springBeans
-.sts4-cache
-
-# VSCode
-.vscode/
 
 # OS generated
 .DS_Store
