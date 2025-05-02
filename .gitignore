@@ -35,8 +35,3 @@
 # OS generated
 .DS_Store
 .Trash/
-
-# Ignore personal or system-wide absolute paths (REMOVE THESE!)
-# /Users/choegyeongmin/Documents/FC투게더/Java_Baekjoon/../../../.*
-# ../../*
-# ../../../*
