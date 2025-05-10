@@ -14,5 +14,6 @@ public class 문자열뒤집기 {
             str += input.charAt(i);
         }
         System.out.println("str = " + str);
+
     }
 }
