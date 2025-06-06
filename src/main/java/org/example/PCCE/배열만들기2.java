@@ -12,12 +12,11 @@ public class 배열만들기2 {
             String s = i + ""; // 정수를 문자열로 변환하여 각 자리수를 확인하기 위해 준비
             boolean bool = true; // 모든 자리가 0 또는 5인지 확인하기 위한 플래그
 
-            // 문자열의 각 자리수(char)를 확인
-            for (char c : s.toCharArray()) {
-                // 만약 해당 자리수가 0도 아니고 5도 아니면
-                if (c != '0' && c != '5') {
-                    bool = false; // 조건을 만족하지 않으므로 false로 설정
-                    break; // 더 이상 볼 필요 없이 반복문 종료
+            for(int j = 0; j < s.length(); j++){
+                char c = s.charAt(j);
+                if(c != '0' && c != '5'){
+                    bool = false;
+                    break;
                 }
             }
 
