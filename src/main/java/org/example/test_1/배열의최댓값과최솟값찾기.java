@@ -23,7 +23,6 @@ public class 배열의최댓값과최솟값찾기 {
             if (num > max) max = num;  // 더 큰 값이 나오면 최댓값 업데이트
         }
 
-        // 결과 출력
         System.out.println("최솟값: " + min);
         System.out.println("최댓값: " + max);
     }
